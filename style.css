@@ -1,0 +1,147 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+  }
+  
+  /* Navigation Styles */
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 1.8em;
+    color: #f0a500;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin-top: 0.5em;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: #f0a500;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    border-bottom: 2px solid #f0a500;
+  }
+  
+  /* Hero Section */
+  #home {
+    background-image: url('https://via.placeholder.com/1200x600');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 5em 0;
+    text-align: center;
+  }
+  
+  #home h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    font-family: 'Georgia', serif;
+  }
+  
+  #home p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 4em;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  #about {
+    background-color: #eaeaea;
+  }
+  
+  #services {
+    background-color: #fff;
+  }
+  
+  #contact {
+    background-color: #eaeaea;
+  }
+  
+  /* List Styling for Services */
+  #services ul {
+    list-style-type: none;
+    margin-top: 2em;
+    padding: 0;
+  }
+  
+  #services ul li {
+    font-size: 1.1em;
+    color: #333;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin: 0.5em;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  #services ul li:hover {
+    background-color: #f0a500;
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 2em;
+  }
+  
+  /* Button Styles */
+  button, a.button {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    margin: 1em 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f0a500;
+   
+  
